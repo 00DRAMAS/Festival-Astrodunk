@@ -1,0 +1,756 @@
+*{
+	box-sizing: border-box;
+	padding: 0;
+	margin:0;
+}
+
+
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+/*    height: 214vh;*/
+    background: linear-gradient(to bottom, #ffcccc 68%, #CEEAF7 95%);
+/*    background: url('../Media/ASTRODUNK LOGO CIRCULAR.png') top center no-repeat;*/
+    background-position: 0% 100%; /* Ajusta la posición vertical del degradado */
+/*    background-size: 100% 117%; /* Ajusta la altura del degradado */*/
+    /* Cambia los colores y la dirección según tus preferencias */
+  }
+
+
+
+                                /*NAV */
+header {
+/*    border:1px solid yellow;*/
+    width: 100%;
+/*    height: 23vh;*/
+    height: 90px;
+    background: linear-gradient(to bottom, #CEEAF7, #FFCAD4)
+}
+
+  nav {
+	width: 100%;
+    height: auto;
+    display: flex;
+/*    flex-direction: row;*/
+    justify-content: space-between;
+    color: white;
+    font-family: 'Montserrat';
+    font-weight: bold;}
+
+
+#logotip {
+	width: 50%;
+	height: auto;
+}
+
+#logotip img {
+	width: 100%;
+    width: 31%;
+    padding: 26px;
+}
+
+#menu{
+
+    display: flex;
+    justify-content: space-evenly;
+/*    flex-direction: row;*/
+    list-style: none;
+/*    padding: 5vh;*/
+    align-items: center;
+    color: purple;
+}
+
+#menu li{
+        width:120%;
+/*    font-size: 1.2rem;*/
+    padding: 15px 30px 30px 30px;
+    color: #662D91;
+    border: purple 1px;
+/*    font-size: 4vh;*/
+}
+
+#menu li a{
+/*    width:100%;*/
+    text-decoration: none;
+    color: #662D91;
+    display: inline-block;
+    padding:12%;
+
+}
+
+
+.linksmenu a {
+    text-decoration: none;
+    text-decoration: none;
+    color: purple;
+    border-radius: 16px;
+    padding: 4vh;
+}
+
+.linksmenu a:hover{
+    text-decoration-line:underline;
+    text-decoration-thickness: 4px;
+}
+
+
+#menu li a:hover{
+    background-color: #FFCAD4;
+    color:white;
+    border-radius:50px ;
+      transition-duration: 0.2s; 
+
+ 
+}
+
+
+
+                                /*video*/
+
+
+video{
+    width: 100%; /* Ajustar el ancho del video al 100% del contenedor */
+    height: auto; /* Mantener la proporción de aspecto */
+    opacity: 0.8; /*     Opacidad del video*/
+    positon:relateive;
+}
+
+
+#ball img{
+    width: 30%;
+    position:absolute;
+    bottom:0%;
+  }
+/*Superposición logo*/
+
+.balls {
+  position: relative; /* Hacer que la posición sea relativa para que los elementos hijos posicionados absolutamente estén relativos a este contenedor */
+}
+
+
+
+
+                            /*LOGO CIRCULAR*/
+
+.overlay {
+  position: absolute; /* Posicionar absolutamente el PNG */
+  top: 621px; /* Ajustar la posición superior */
+  left: 482px; /* Ajustar la posición izquierda */
+  position: absolute;
+top: 700px;
+left: 0;
+right: 0;
+bottom: 0;
+margin: auto;
+}
+
+
+                                /*ABOUT*/
+
+#about {
+/*    background-color: slateblue;*/
+    width: 98.9vw;
+    height: auto;
+    padding:10%;
+    padding: 5% 10% 5% 10%;
+    display:flex;
+    flex-direction:row;
+/*    background-color: slateblue;*/
+}
+
+
+/*.purpleball {
+    width: 308px;
+    float: left;
+}*/
+
+h1 {
+    font-size: 3rem;
+}
+
+p {
+    font-size: 1.2rem;
+}
+
+.sobreaquestfestival {
+    width:  50%;
+    padding-right:2%;
+}
+
+.benvingutsalfestival {
+    width:  50%;
+    padding-left:2%;
+}
+
+.textamen {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-family: montserrat;
+    color: purple;
+    font-size: 30px;
+}
+
+.ASTRO {
+    padding-bottom: 50px;
+    font-size: 4vh;
+}
+
+
+                            /*IMAGENES*/
+
+#imatges {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-bottom: 10vh;
+}
+
+#imatges img{
+    border-radius: 70px;
+}
+
+
+                    /*TEXTO ABAJO IMAGENES*/
+
+#flight {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+#textsota {
+    display: flex;
+    justify-content: space-around;
+    padding: 49.96px;
+    font-size: 1.2rem;
+    width: 100%;
+    text-align: center;
+    color:#662D91 ;
+    font-family: montserrat;
+
+}
+
+.text-1{
+    width: 40%;
+    text-align: left;
+}
+
+
+.text-2{
+    padding-left: 40px;
+    width: 40%;
+    text-align: right;
+}
+
+
+                             /*FOOTER*/
+
+footer{
+ background: linear-gradient(to top, #662D91 28%, #CEEAF7 152%);  
+ color: #fff;
+  padding: 5% 10% 1% 10%
+}
+
+
+.footer_caixa {
+    display: flex;
+/*    flex: wrap;*/
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer-section {
+ /* width: 25%;
+  padding:2%;*/ 
+}
+
+.footer-section h2 {
+  color: #fff;
+  margin-top:10%;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section a {
+  color: #fff;
+  text-decoration: none;
+}
+
+#logo2 { 
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}   
+
+
+/*XARXES*/
+
+#xarxes {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 5%;
+
+}
+
+
+
+
+
+
+
+
+                                    /*GRUPS*/
+
+
+
+#titl-principal{
+    font-family: montserrat;
+    color: #662D91;
+    padding: 25px;
+    padding-left: 151px;
+    display: flex;
+        padding-bottom: 65px;
+
+
+}
+
+
+
+#grups{
+    width: 100%;
+    justify-content: space-between;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 5% 10% 5% 10%;
+}
+   
+
+
+.grup {
+    width: 450px;
+    height: auto;
+    padding-bottom: 10px;
+}
+
+.grup img {
+    width: 100%;
+    border-radius: 50px;
+}
+
+.text {
+    padding-top: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top:10px;
+    font-family: montserrat;
+    padding-bottom: 55px;
+}
+
+
+
+.text h2 {
+    font-family: montserrat;
+    font-weight: 500;
+    font-size: 27px;
+    color:purple;
+    padding-bottom: 7px;
+    padding-top: 20px;
+}
+
+.line{
+    padding-bottom: 10px;
+}
+.text p {
+    text-align: center;
+    text-align: center;
+    padding-bottom: 20px;
+    text-align: justify;
+}
+
+.h22 {
+    padding-bottom
+    margin-bottom: 5px;
+}
+
+
+
+.boton {
+  background-color: #662D91; 
+  font-family: montserrat;
+  color: white; 
+  padding: 10px 20px; 
+  border: none; 
+  border-radius: 40px; 
+  text-align: center; 
+  text-decoration: none; 
+  display: inline-block; /* Mostrar como bloque */
+  font-size: 16px; 
+  margin: 10px; 
+  transition-duration: 0.3s; 
+  width: 40%;
+}
+
+.boton:hover {
+  background-color: #CEEAF7;
+  color: #662D91;
+}
+
+
+
+
+                            /*CONTACTE.HTML*/
+
+#titl-principal-2{
+  font-family: montserrat;
+    color: #662D91;
+    padding: 25px;
+    padding-left: 151px;
+    display: flex;
+}
+
+
+
+.contacte {
+    width: 100%;
+    height: auto;
+/*    background-color: seagreen;*/
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 5% 10% 5% 10;
+}
+
+li {
+        list-style:none;
+        color:black;
+}
+
+
+
+.formulari {
+    width: 50%;
+    color: blue;
+    height: auto;
+    background-color: #4D2D185;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 5% 10% 5% 10%;
+    
+}
+
+
+
+#formulari {
+    width: 100%;
+    
+}
+
+
+
+input[type=text], select, textarea{
+    width: 186%;
+    padding: 12px;
+    padding-bottom: 33px;
+    border: black;
+    border-radius: 4px;
+    resize: vertical;
+    background-color: #CEEAF7;
+}
+
+label {
+    font-family: montserrat;
+    font-size: 15px;
+    font-weight: 800    ;
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+
+.col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+}
+
+
+.partdreta {
+   padding-right:90px;
+   padding-top:80px;
+   font-family: montserrat;
+   font-weight: 600;
+   font-size: 14px;
+
+}
+
+.enviar {
+    font-family: montserrat;
+    margin-top: 10%;
+    padding: 9px;
+    border: none;
+    border-radius: 10px;
+    background: #662D91;
+    color: white;
+    transition-duration: 0.3s;
+}
+
+.enviar:hover {
+    background: #CEEAF7;
+    color:  #662D91;
+    
+
+}
+
+
+.xarxes-cntct {
+    display:flex;
+    justify-content: space-around;
+    padding-top:50px;
+    padding-bottom: 50px;
+}
+
+
+.direccio {
+    padding-bottom: 5px;
+    font-size: 12px;
+}
+
+.codipostal {
+    padding-bottom: 30px;
+}
+
+.number {
+    padding-bottom: 30px;
+}
+
+
+
+.email {
+    padding-bottom: 150px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*MOBIL*/
+
+@media only screen and (max-width: 750px) {
+#ball img{
+    width: 30%;
+    position:absolute;
+    top:-7%;
+  }
+
+#menu li a:hover{
+    background-color: #FFCAD4;
+    color:white;
+    border-radius:50px ;
+ 
+}
+
+nav {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between;
+    color: white;
+    font-family: 'Montserrat';
+    font-weight: bold;
+}
+
+#logotip {
+
+}
+
+
+#titl-principal{
+    padding-left: 5rem;
+    padding-top: 5rem;
+}
+
+
+
+#imatges {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-bottom: 10vh;
+
+}
+
+
+/*#titl-principal {
+ font-family: montserrat;
+    color: #662D91;
+    padding: 25px;
+    padding-left: 151px;
+    display: flex;
+    align-items: center;
+}*/
+
+
+#logotip {
+    width: 100%;
+    height: auto;
+        align-items: center;
+
+}
+
+#logotip img {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    width: 75%;
+    padding: 26px;
+    padding-left: 9rem;
+}
+
+#titl-principal-2{
+    padding-left: 7rem;
+    padding-top: 5rem;
+}
+
+input[type=text], select, textarea {
+    width: 283%;
+    padding: 12px;
+    padding-bottom: 33px;
+    border: black;
+    border-radius: 4px;
+    resize: vertical;
+    background-color: #CEEAF7;
+}
+
+.mapa2{
+    width: 483px;
+}
+
+.partdreta {
+    padding-right: 0px;
+    padding-top: 80px;
+    font-family: montserrat;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+#partdretabaix {
+
+    width: 85%;
+    display: flex;
+    flex-direction: column; 
+    margin-left: 3rem;
+}
+
+#about {
+/*    background-color: slateblue; */
+    width: 95.9vw;
+    height: auto;
+    padding: 10%;
+    padding: 5% 10% 5% 10%;
+    display: flex;
+    flex-direction: row;
+/*    background-color: slateblue;*/
+}
+
+#ball {
+    margin-top: 4rem;
+}
+
+
+video {
+    width: 100%;
+    height: auto;
+    opacity: 0.8;
+
+}
+
+.text-1 {
+    width: 40%;
+    text-align: left;
+}
+
+.text-2 {
+    padding-left: 40px;
+    width: 40%;
+    text-align: right;
+}
+
+
